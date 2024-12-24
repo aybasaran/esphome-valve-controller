@@ -53,7 +53,7 @@ binary_sensor:
     id: valve_x_closed
     pin:
       number: GPIO12
-      inverted: false
+      inverted: true
       mode: INPUT_PULLUP
     on_press:
       then:
